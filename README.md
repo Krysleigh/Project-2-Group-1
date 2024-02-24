@@ -37,7 +37,17 @@ Save the database schema as a Postgres file named crowdfunding_db_schema.sql, an
 Create a new Postgres database, named crowdfunding_db.
 Using the database schema, create the tables in the correct order to handle the foreign keys.
 Verify the table creation by running a SELECT statement for each table.
-Import each CSV file into its corresponding SQL table.
+Import each CSV file into its corresponding SQL table. 
+  Import Instructions:
+    1. right click on table icon, and select "Import/Export Data...", 
+    2. click on the Options table and make sure the header is selected. 
+    3. for the contacts.csv becucase of the serial ID, click on Columns tab and remove the "id" field from import. 
+    4. Click on OK
+  Import Order:
+    1. subcategory.csv
+    2. category.csv
+    3. campaign.csv
+    4. contacts.csv
 Verify that each table has the correct data by running a SELECT statement for each.
 Required Libraries The project requires the following Python libraries: pandas sqlalchemy PostgreSQL Numpy QuickDBD
 
