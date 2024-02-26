@@ -1,6 +1,7 @@
-Project Name ETL Mini Project- Nick Nath,Krystin Cipriano, Nancy Zheng, Ryan Sambila, Chaitanya Kota
+# ETL Mini Project
+## Project contributors : Nick Nath,Krystin Cipriano, Nancy Zheng, Ryan Sambila, Chaitanya Kota
 
-Overview For the ETL mini project.
+### Overview For the ETL mini project.
 We worked in team of 5 to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. 
 After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, these CSV files were uploaded into a Postgres database.
 
@@ -37,7 +38,16 @@ Save the database schema as a Postgres file named crowdfunding_db_schema.sql, an
 Create a new Postgres database, named crowdfunding_db.
 Using the database schema, create the tables in the correct order to handle the foreign keys.
 Verify the table creation by running a SELECT statement for each table.
-Import each CSV file into its corresponding SQL table.
+Import each CSV file into its corresponding SQL table. 
+  Import Instructions:
+    1. right click on table icon, and select "Import/Export Data...", 
+    2. click on the Options table and make sure the header is selected.
+    4. Click on OK
+  Import Order:
+    1. subcategory.csv
+    2. category.csv
+    3. contacts.csv
+    4. campaign.csv
 Verify that each table has the correct data by running a SELECT statement for each.
 Required Libraries The project requires the following Python libraries: pandas sqlalchemy PostgreSQL Numpy QuickDBD
 
@@ -61,7 +71,14 @@ Analysis Four CSV files are created and an ERD and table schema is also created 
 Data Analysis 
 Python dictionary methods
 
-Results 
+
+# Schema for understanding the project:
+
+
+<img width="1015" alt="Screenshot 2024-02-24 at 9 32 08 PM" src="https://github.com/Krysleigh/Project-2-Group-1/assets/56358876/c6f189f6-2d46-40de-a028-8b633738eaa1">
+
+
+# Results 
 See attached Jupyter Notebook for data extraction and transformation
 
 License 
