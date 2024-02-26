@@ -1,36 +1,36 @@
 # ETL Mini Project
 ## Project contributors : Nick Nath,Krystin Cipriano, Nancy Zheng, Ryan Sambila, Chaitanya Kota
 
-### Overview For the ETL mini project.
-We worked in team of 5 to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. 
-After we transformed the data, we created four CSV files and used the CSV file data to create an ERD and a table schema. Finally, these CSV files were uploaded into a Postgres database.
+### Overview
+We worked in a team of 5 to build an ETL pipeline using Python, Pandas, and Python dictionary methods (versus regular expressions) to extract and transform the data.  
+  
+After we cleaned and transformed the data, we exported them as four CSV files (category.csv, subcategory.csv, contacts.csv, and campaign.csv). The CSV files were used to create an ERD and a table schema and then uploaded into a Postgres database.
 
-Brief description of the project. 
+### Table of Contents  
 The project is divided into four subsections:
--Create the Category and Subcategory DataFrames
--Create the Campaign DataFrame
--Create the Contacts DataFrame 
--Create the Crowdfunding Database
+- Create the Category and Subcategory DataFrames
+- Create the Campaign DataFrame
+- Create the Contacts DataFrame 
+- Create the Crowdfunding Database
 
-Table of Contents 
-A. Create a Category and Subcategory of DataFrames
+### Description
+  
+**A. Create a Category and Subcategory of DataFrames**
+- Extracted and transformed the crowdfunding.xlsx Excel data to create a category DataFrame that has the columns '''category_id''' and '''category'''.
+- Exported the category DataFrame as category.csv and saved it to GitHub.
+- Extracted and transformed the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has columns '''subcategory_id''' and '''subcategory'''.
 
-Extract and transform the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns: -A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories -A "category" column that contains only the category titles
-Export the category DataFrame as category.csv and save it to your GitHub repository.
-Extract and transform the crowdfunding.xlsx Excel data to create a subcategory DataFrame that has the following columns: -A "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories -A "subcategory" column that contains only the subcategory titles
+**B. Create the Campaign DataFrame**
+- Extracted and transformed the crowdfunding.xlsx Excel data to create a campaign DataFrame has 15 distinct column
+- Exported the campaign DataFrame as '''campaign.csv''' and saved it to GitHub.
 
-B. Create the Campaign DataFrame
-
-Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has 15 distinct columns:
-Export the campaign DataFrame as campaign.csv and saved to GitHub repository.
-
-C. Create the Contacts DataFrame
+**C. Create the Contacts DataFrame**
 
 Extract and transform the data from the contacts.xlsx excel data using Python dictionary methods.
 From using Python Dictionary method
 Import the contacts.xlsx file into a DataFrame. -Iterate through the DataFrame, converting each row to a dictionary. -Iterate through each dictionary, doing the following: -Extract the dictionary values from the keys by using a Python list comprehension. -Add the values for each row to a new list. -Create a new DataFrame that contains the extracted data. -Split each "name" column value into a first and last name, and place each in a new column. -Clean and export the DataFrame as contacts.csv and save it to your GitHub repository.
 
-D. Create the Crowdfunding Database
+**D. Create the Crowdfunding Database**
 
 Inspect the four CSV files, and then sketch an ERD of the tables by using QuickDBDLinks to an external site..
 Use the information from the ERD to create a table schema for each CSV file.
@@ -73,13 +73,11 @@ Python dictionary methods
 
 
 # Schema for understanding the project:
-
-
 <img width="1015" alt="Screenshot 2024-02-24 at 9 32 08 PM" src="https://github.com/Krysleigh/Project-2-Group-1/assets/56358876/c6f189f6-2d46-40de-a028-8b633738eaa1">
 
 
-# Results 
-See attached Jupyter Notebook for data extraction and transformation
+### Results 
+See attached Jupyter Notebook: '''ETL_Mini_Project.ipynb''' for data extraction and transformation
 
 License 
 edX Boot Camps LLC
