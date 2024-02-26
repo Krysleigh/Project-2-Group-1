@@ -1,5 +1,5 @@
 # ETL Mini Project
-## Project contributors : Nick Nath,Krystin Cipriano, Nancy Zheng, Ryan Sambila, Chaitanya Kota
+**Contributors** : Krystin Cipriano, Chaitanya Kota, Nick Nath, Ryan Sambila, Nancy Zheng
 
 ### Overview
 We worked in a team of 5 to build an ETL pipeline using Python, Pandas, and Python dictionary methods (versus regular expressions) to extract and transform the data.  
